@@ -54,15 +54,15 @@ Creating a bootable USB
   14. When warned that the USB will be erased, click OK.
   15. Wait until it says READY, then click CLOSE. Safely eject the USB.
   16. Windows 11 Pro will be the preferred OS. To install windows 11 pro, create the file "ei.cfg" , add in this:
-
+```
        [EditionID]
        Professional
        [Channel]
        Retail
        [VL]
        0
-
-     and put it into your USB --> Sources.
+```
+  and put it into your USB --> Sources.
 
         
 Partitioning the disk
