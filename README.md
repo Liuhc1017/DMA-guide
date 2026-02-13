@@ -14,15 +14,18 @@ Dependencies:
 #You might need the administrator password for this
 Downloading Windows 11 Multi edition ISO image:
   1. Visit https://www.microsoft.com/en-us/software-download/windows11.
-  2. Scroll down to this page:
-  3. Select "Windows 11(multi-edition ISO for x64 devices)".
+  2. Scroll down to this page:<img width="1249" height="648" alt="Screenshot 2026-02-13 173409" src="https://github.com/user-attachments/assets/47741791-9a6c-4963-b936-77d2ab292d45" />
+
+  3. Select "Windows 11(multi-edition ISO for x64 devices)".<img width="1334" height="864" alt="Screenshot 2026-02-13 173424" src="https://github.com/user-attachments/assets/4e370b6b-38e9-405d-89af-1ada1095cf92" />
+
   4. Press confirm, choose your language and press confirm.
   5. After loading is finished, click on "64-bit Download" and wait for the download to be done.
 
 
 Creating a bootable USB
   1. Visit https://rufus.ie/en/.
-  2. Scroll down to the downloads page.
+  2. Scroll down to the downloads page.<img width="1148" height="861" alt="Screenshot 2026-02-13 173958" src="https://github.com/user-attachments/assets/c407c192-a72d-453d-a6fa-0a52a944ca6a" />
+
   3. Choose the exe file corresponding to your needs (Usually its Windows x64 Standard).
   4. Click on the download link and wait for the exe file to download.
   5. After download is finished, click on the exe file and follow the instructions for the setup process. At the end, lauch rufus.
@@ -50,13 +53,25 @@ Creating a bootable USB
         Choose what you need. I suggest unchecking them.
   14.When warned that the USB will be erased, click OK.
   15.Wait until it says READY, then click CLOSE. Safely eject the USB.
-  16.Windows 11 Pro will be the preferred OS. To install windows 11 pro, put the file "ei.cfg" found in this repository into your USB --> Sources.
+  16.Windows 11 Pro will be the preferred OS. To install windows 11 pro, create the file "ei.cfg" , add in this:
+
+     [EditionID]
+     Professional
+     [Channel]
+     Retail
+     [VL]
+     0
+
+     and put it into your USB --> Sources.
 
         
 Partitioning the disk
-  1. Press  Win+X and go to Disk management.
-  2. Right click on you C Drive and click shrink volume. Wait for a while
-  3. Choose how much space you want for a fresh new windows 11 and click Shrink.
+  1. Press  Win+X and go to Disk management.<img width="816" height="681" alt="Screenshot 2026-02-13 175451" src="https://github.com/user-attachments/assets/d4c41a7b-166e-45f9-a231-63e158815832" />
+
+  2. Right click on you C Drive and click shrink volume. Wait for a while<img width="1010" height="877" alt="Screenshot 2026-02-13 175505" src="https://github.com/user-attachments/assets/f6f7eda5-201b-48cf-af9f-cb3ce0d5f1ea" />
+
+  3. Choose how much space you want for a fresh new windows 11 and click Shrink.<img width="582" height="395" alt="Screenshot 2026-02-13 175610" src="https://github.com/user-attachments/assets/5a5a436c-9d58-4917-b7ae-9f097a3c3b62" />
+
   4. Wait for the shrink to complete.
 
 
