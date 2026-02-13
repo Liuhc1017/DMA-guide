@@ -31,36 +31,36 @@ Creating a bootable USB
   5. After download is finished, click on the exe file and follow the instructions for the setup process. At the end, lauch rufus.
   6. Plug in your USB drive (at least 8 GB; everything on it will be erased). 
   7. Open Rufus (if Windows asks for permission, click Yes).
-  8.In Rufus:
+  8. In Rufus:
         Device: select your USB drive
         Boot selection: choose Disk or ISO image
         Click SELECT and pick your downloaded Windows 11 ISO
         Partition scheme / Target system
         If your PC uses UEFI (most modern PCs):
-  9.Partition scheme: GPT
+  9. Partition scheme: GPT
         Target system: UEFI (non CSM)
         If your PC is older and uses Legacy BIOS:
         Partition scheme: MBR
         Target system: BIOS (or UEFI-CSM)
         (If you’re unsure, GPT + UEFI is usually correct for Windows 11.)
-  10.Volume label: optional (e.g., WIN11_USB).
-  11.File system: keep default (usually NTFS).
+  10. Volume label: optional (e.g., WIN11_USB).
+  11. File system: keep default (usually NTFS).
         If Rufus asks about UEFI:NTFS, allow it (that’s normal).
-  12.Click START.
-  13.If Rufus shows “Windows User Experience” options, you may see checkboxes like:
+  12. Click START.
+  13. If Rufus shows “Windows User Experience” options, you may see checkboxes like:
         Remove requirement for TPM / Secure Boot / RAM
         Remove requirement for Microsoft account
         Choose what you need. I suggest unchecking them.
-  14.When warned that the USB will be erased, click OK.
-  15.Wait until it says READY, then click CLOSE. Safely eject the USB.
-  16.Windows 11 Pro will be the preferred OS. To install windows 11 pro, create the file "ei.cfg" , add in this:
+  14. When warned that the USB will be erased, click OK.
+  15. Wait until it says READY, then click CLOSE. Safely eject the USB.
+  16. Windows 11 Pro will be the preferred OS. To install windows 11 pro, create the file "ei.cfg" , add in this:
 
-     [EditionID]
-     Professional
-     [Channel]
-     Retail
-     [VL]
-     0
+       [EditionID]
+       Professional
+       [Channel]
+       Retail
+       [VL]
+       0
 
      and put it into your USB --> Sources.
 
