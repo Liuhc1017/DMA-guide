@@ -1,5 +1,5 @@
 # DMA-guide
-This is a guide to dual boot with Singapore MOE DMA, without removing any files and the normal DMA.
+This is a guide to dual boot with Singapore MOE DMA, without removing any files and the normal DMA.For educational purposes only.
 Introduction 
 Instead of a normal computer booting only one OS, we can partition the disk and boot multiple OSes, including a fresh copy of any OS you want and normal MOE DMA. This inmproved method still allows you to login to your MIMS account and have a computer of your own that you can do whatever you want on.
 I am not liable for any damages caused. Exercise your own discretion.
